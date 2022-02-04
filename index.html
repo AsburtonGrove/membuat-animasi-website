@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Reset Css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- My Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Gallery</title>
+</head>
+<body>
+    <h1>The Avengers</h1>
+
+    <div class="container">
+        <ul class="gallery">
+            <li>
+                <a href="#gambar-1">
+                <img src="img/thumbs/cap.jpeg" alt="Captain America">
+                <span>Captain America</span>
+            </a>
+            <div class="overlay" id="gambar-1">
+                <a href="#" class="close">x close</a>
+                <a href="#gambar-4" class="previous">previous</a>
+                <img src="img/full/cap.jpeg" alt="Captain America">
+                <a href="#gambar-2" class="next">next</a>
+            </div>
+            </li>
+            <li>
+                <a href="#gambar-2">
+                <img src="img/thumbs/hulk.jpeg" alt="Hulk">
+                <span>Hulk</span>
+            </a>
+            <div class="overlay" id="gambar-2">
+                <a href="#" class="close">x close</a>
+                <a href="#gambar-1" class="previous"></a>
+                <img src="img/full/hulk.jpeg" alt="Hulk">
+                <a href="#gambar-3" class="next"></a>
+            </div>
+            </li>
+            <li>
+                <a href="#gambar-3">
+                <img src="img/thumbs/ironman.jpeg" alt="Iron Man">
+                <span>Iron Man</span>
+            </a>
+            <div class="overlay" id="gambar-3">
+                <a href="#" class="close">x close</a>
+                <a href="#gambar-2" class="previous"></a>
+                <img src="img/full/ironman.jpeg" alt="Iron Man">
+                <a href="#gambar-4" class="next"></a>
+            </div>
+            </li>
+            <li>
+                <a href="#gambar-4">
+                <img src="img/thumbs/thor.jpeg" alt="Thor">
+                <span>Thor</span>
+            </a>
+            <div class="overlay" id="gambar-4">
+                <a href="#" class="close">x close</a>
+                <a href="#gambar-3" class="previous"></a>
+                <img src="img/full/thor.jpeg" alt="Thor">
+                <a href="#gambar-1" class="next"></a>
+            </div>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</body>
+</html>
